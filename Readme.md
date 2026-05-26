@@ -220,7 +220,6 @@ python Output/Output.py
 ```
 
 
-
 # 📊 Performance Evaluation
 
 The repository includes experimental scripts for evaluating and comparing the runtime behavior of different enforcement schemes.
@@ -235,7 +234,21 @@ Scripts:
 python Performance/performance_eval.py
 python Performance/plot.py
 ```
+### Final experimental results:
 
+**CSV result file :**
+
+```text
+performance_results_avg_opt.csv
+```
+
+**Final generated plots :**
+
+```text
+strict_enforcers_avg_opt.png
+least_effort_enforcers_avg_opt.png
+exclusive_enforcers_avg_opt.png
+```
 Generated outputs:
 
 - Execution-time measurements
@@ -260,6 +273,21 @@ Scripts:
 ```bash
 python Performance_prop/performance_eval_prop.py
 python Performance_prop/plot_properties.py
+```
+### Final experimental results:
+
+**CSV result file :**
+
+```text
+performance_properties_avg_opt.csv
+```
+
+**Final generated plots :**
+
+```text
+strict_enforcers_avg_opt.png
+least_effort_enforcers_avg_opt.png
+exclusive_enforcers_avg_opt.png
 ```
 
 Generated outputs:
